@@ -1,0 +1,64 @@
+body {
+	background-image: url("images/soundwave.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin:30px; 
+    color:purple;
+}
+
+@font-face {
+  font-family: "Megatron";
+  src: url("megafont/Megatron.otf") format("truetype");
+}
+
+h1 { 
+	text-align: center;
+	font-family: "Megatron", sans-serif; 
+	font-size: 70px;
+}
+
+p { 
+	font-family: "Megatron", sans-serif;
+}
+
+#wins {
+	margin-left: 150px;
+	margin-top:40px;
+	float:left;
+	font-size: 35px;
+	color:black;
+}
+
+#losses {
+	float:right;
+	font-size: 35px;
+	margin-right: 150px;
+	margin-top:40px;
+	color:black;
+}
+
+#currentWord {
+	clear:both;
+	font-size: 50px;
+	text-align: center;
+	padding: 50px;
+}
+
+#guessesLeft {
+	text-align: center;
+	margin-top: 25px;
+	font-size: 25px;
+}
+
+#lettersGuessed {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 35px;
+}
+
+#playAgain {
+	text-align: center;
+	font-size: 25px;
+	color:red;
+}
